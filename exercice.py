@@ -31,7 +31,8 @@ def to_farenheit(temperature: float) -> float:
         if temperature < -273.15 :
             raise ValueError("Cette tempertaure en Celsius est inferieure au minimum '-273.15' qui se trouve sur l'echelle.\n")
     except ValueError :
-        print
+        print("Valeur invalide.\n")
+        return 
     return 0.0
 
 
