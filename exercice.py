@@ -33,6 +33,7 @@ def to_farenheit(temperature: float) -> float:
     except ValueError :
         print("Valeur invalide.\n")
         return 1
+    
 
     return 0.0
 
