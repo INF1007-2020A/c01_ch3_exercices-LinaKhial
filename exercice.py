@@ -25,6 +25,7 @@ def to_celsius(temperature: float) -> float:
     try :
         if temperature < -459.67 :
             raise ValueError("Cette tempertaure en Celsius est inferieure au minimum '-459.67' qui se trouve sur l'echelle.\n")
+    except
     return 0.0
 
 
