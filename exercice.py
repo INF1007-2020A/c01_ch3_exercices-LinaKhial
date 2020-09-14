@@ -29,7 +29,7 @@ def to_celsius(temperature: float) -> float:
 def to_farenheit(temperature: float) -> float:
     try :
         if temperature < -273.15 :
-            raise ValueError
+            raise ValueError("Cette tempertaure")
     return 0.0
 
 
