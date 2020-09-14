@@ -17,7 +17,7 @@ def to_degrees(angle_rads: float) -> tuple:
     degree = math.degrees(angle_rads) # change the radian angle to degree first
     whole_number ,decimal_number = divmod((degree),1) # whole_number represents the degrees (la partie entiere)
     minutes, decimal_sec = divmod((decimal_number * 60), 1) # min = la partie decimale de 'degree' * 60
-
+    seconds, decimal = divmod((decimal_sec * 60) , 1)
     return 0.0, 0.0, 0.0
 
 
