@@ -33,8 +33,8 @@ def to_farenheit(temperature: float) -> float:
     except ValueError :
         print("Valeur invalide.\n")
         return 1
-    fahrenheit = 1.8 * degre + 32
-    return 0.0
+    fahrenheit = 1.8 * temperature + 32
+    return fahrenheit
 
 
 def main() -> None:
