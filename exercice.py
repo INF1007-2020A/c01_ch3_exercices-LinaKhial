@@ -28,7 +28,7 @@ def to_celsius(temperature: float) -> float:
 
 def to_farenheit(temperature: float) -> float:
     try :
-        if tem
+        if temperature
     return 0.0
 
 
