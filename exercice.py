@@ -24,7 +24,7 @@ def to_degrees(angle_rads: float) -> tuple:
 def to_celsius(temperature: float) -> float:
     try :
         if temperature < -459.67 :
-            raise ValueError("Cette tempertaure en Celsius est inferieure au minimum '-273.15' qui se trouve sur l'echelle.\n")
+            raise ValueError("Cette tempertaure en Celsius est inferieure au minimum '-459.67' qui se trouve sur l'echelle.\n")
     return 0.0
 
 
