@@ -28,8 +28,8 @@ def to_celsius(temperature: float) -> float:
     except ValueError : 
         print("Valeur invalide.\n")
         return 1
-    
-    return 0.0
+    celsius = (temperature - 32) / 1.8
+    return celsius
 
 
 def to_farenheit(temperature: float) -> float:
