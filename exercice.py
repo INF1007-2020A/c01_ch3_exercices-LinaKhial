@@ -23,7 +23,7 @@ def to_degrees(angle_rads: float) -> tuple:
 
 def to_celsius(temperature: float) -> float:
     try :
-        if 
+        if temperature < -459.67
     return 0.0
 
 
