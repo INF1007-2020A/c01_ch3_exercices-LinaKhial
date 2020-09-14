@@ -33,7 +33,6 @@ def to_farenheit(temperature: float) -> float:
     except ValueError :
         print("Valeur invalide.\n")
         return 1
-    degree = int(filter(x.isdigit, x))
     fahrenheit = 1.8 * degre + 32
     return 0.0
 
